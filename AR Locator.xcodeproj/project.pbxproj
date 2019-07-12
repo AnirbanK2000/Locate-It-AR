@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2F0E0D356878554DD65BFD /* Pods_AR_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0031DE2107BF63817BF2D95D /* Pods_AR_Locator.framework */; };
+		5A859A3322BE90E40038DC8D /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A859A3122BE90E40038DC8D /* ListTableViewCell.swift */; };
+		5A859A3422BE90E40038DC8D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A859A3222BE90E40038DC8D /* ListViewController.swift */; };
+		5A859A3622BEB23B0038DC8D /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A859A3522BEB23B0038DC8D /* ARViewController.swift */; };
 		5AF9A3E322BE7FF700FB20D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9A3E222BE7FF700FB20D9 /* AppDelegate.swift */; };
-		5AF9A3E522BE7FF700FB20D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9A3E422BE7FF700FB20D9 /* ViewController.swift */; };
+		5AF9A3E522BE7FF700FB20D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9A3E422BE7FF700FB20D9 /* MainViewController.swift */; };
 		5AF9A3E822BE7FF700FB20D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9A3E622BE7FF700FB20D9 /* Main.storyboard */; };
 		5AF9A3EB22BE7FF700FB20D9 /* AR_Locator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9A3E922BE7FF700FB20D9 /* AR_Locator.xcdatamodeld */; };
 		5AF9A3ED22BE7FF900FB20D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9A3EC22BE7FF900FB20D9 /* Assets.xcassets */; };
 		5AF9A3F022BE7FF900FB20D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9A3EE22BE7FF900FB20D9 /* LaunchScreen.storyboard */; };
+		5AFFC22C22C1878B00791655 /* AltitudeDecider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFFC22B22C1878B00791655 /* AltitudeDecider.swift */; };
+		5AFFC22E22C2A5AB00791655 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFFC22D22C2A5AB00791655 /* DirectionsViewController.swift */; };
+		5AFFC23222C2A66F00791655 /* CoreLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFFC23022C2A66F00791655 /* CoreLocation.swift */; };
+		5AFFC23322C2A66F00791655 /* Turf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFFC23122C2A66F00791655 /* Turf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0031DE2107BF63817BF2D95D /* Pods_AR_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5359EAFE65A5D7617433A9DC /* Pods-AR Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Locator.debug.xcconfig"; path = "Target Support Files/Pods-AR Locator/Pods-AR Locator.debug.xcconfig"; sourceTree = "<group>"; };
+		5A859A3122BE90E40038DC8D /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		5A859A3222BE90E40038DC8D /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5A859A3522BEB23B0038DC8D /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		5AF9A3DF22BE7FF700FB20D9 /* AR Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF9A3E222BE7FF700FB20D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AF9A3E422BE7FF700FB20D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AF9A3E422BE7FF700FB20D9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5AF9A3E722BE7FF700FB20D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AF9A3EA22BE7FF700FB20D9 /* AR_Locator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AR_Locator.xcdatamodel; sourceTree = "<group>"; };
 		5AF9A3EC22BE7FF900FB20D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF9A3EF22BE7FF900FB20D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF9A3F122BE7FF900FB20D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AFFC22B22C1878B00791655 /* AltitudeDecider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeDecider.swift; sourceTree = "<group>"; };
+		5AFFC22D22C2A5AB00791655 /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		5AFFC23022C2A66F00791655 /* CoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocation.swift; sourceTree = "<group>"; };
+		5AFFC23122C2A66F00791655 /* Turf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turf.swift; sourceTree = "<group>"; };
+		D789B074F6F6609CEA11F17F /* Pods-AR Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR Locator.release.xcconfig"; path = "Target Support Files/Pods-AR Locator/Pods-AR Locator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2F0E0D356878554DD65BFD /* Pods_AR_Locator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				5AF9A3E122BE7FF700FB20D9 /* AR Locator */,
 				5AF9A3E022BE7FF700FB20D9 /* Products */,
+				D19F06023835DBCC97F1CFB9 /* Pods */,
+				5E8ABD1C0395844E93EB4A43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,46 @@
 			isa = PBXGroup;
 			children = (
 				5AF9A3E222BE7FF700FB20D9 /* AppDelegate.swift */,
-				5AF9A3E422BE7FF700FB20D9 /* ViewController.swift */,
+				5AF9A3E422BE7FF700FB20D9 /* MainViewController.swift */,
+				5A859A3222BE90E40038DC8D /* ListViewController.swift */,
+				5A859A3122BE90E40038DC8D /* ListTableViewCell.swift */,
+				5A859A3522BEB23B0038DC8D /* ARViewController.swift */,
+				5AFFC22D22C2A5AB00791655 /* DirectionsViewController.swift */,
+				5AFFC22B22C1878B00791655 /* AltitudeDecider.swift */,
 				5AF9A3E622BE7FF700FB20D9 /* Main.storyboard */,
+				5AFFC22F22C2A66F00791655 /* Turf */,
 				5AF9A3EC22BE7FF900FB20D9 /* Assets.xcassets */,
 				5AF9A3EE22BE7FF900FB20D9 /* LaunchScreen.storyboard */,
 				5AF9A3F122BE7FF900FB20D9 /* Info.plist */,
 				5AF9A3E922BE7FF700FB20D9 /* AR_Locator.xcdatamodeld */,
 			);
 			path = "AR Locator";
+			sourceTree = "<group>";
+		};
+		5AFFC22F22C2A66F00791655 /* Turf */ = {
+			isa = PBXGroup;
+			children = (
+				5AFFC23022C2A66F00791655 /* CoreLocation.swift */,
+				5AFFC23122C2A66F00791655 /* Turf.swift */,
+			);
+			path = Turf;
+			sourceTree = "<group>";
+		};
+		5E8ABD1C0395844E93EB4A43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0031DE2107BF63817BF2D95D /* Pods_AR_Locator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D19F06023835DBCC97F1CFB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5359EAFE65A5D7617433A9DC /* Pods-AR Locator.debug.xcconfig */,
+				D789B074F6F6609CEA11F17F /* Pods-AR Locator.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF9A3F422BE7FF900FB20D9 /* Build configuration list for PBXNativeTarget "AR Locator" */;
 			buildPhases = (
+				ED7EE10325DD7FC27BB17FCA /* [CP] Check Pods Manifest.lock */,
 				5AF9A3DB22BE7FF700FB20D9 /* Sources */,
 				5AF9A3DC22BE7FF700FB20D9 /* Frameworks */,
 				5AF9A3DD22BE7FF700FB20D9 /* Resources */,
+				E26AB9361B3DE3E46FFD65C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +188,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E26AB9361B3DE3E46FFD65C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR Locator/Pods-AR Locator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR Locator/Pods-AR Locator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7EE10325DD7FC27BB17FCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR Locator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AF9A3DB22BE7FF700FB20D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFFC23322C2A66F00791655 /* Turf.swift in Sources */,
+				5AFFC22C22C1878B00791655 /* AltitudeDecider.swift in Sources */,
 				5AF9A3EB22BE7FF700FB20D9 /* AR_Locator.xcdatamodeld in Sources */,
-				5AF9A3E522BE7FF700FB20D9 /* ViewController.swift in Sources */,
+				5A859A3322BE90E40038DC8D /* ListTableViewCell.swift in Sources */,
+				5AF9A3E522BE7FF700FB20D9 /* MainViewController.swift in Sources */,
+				5AFFC22E22C2A5AB00791655 /* DirectionsViewController.swift in Sources */,
+				5A859A3622BEB23B0038DC8D /* ARViewController.swift in Sources */,
+				5A859A3422BE90E40038DC8D /* ListViewController.swift in Sources */,
 				5AF9A3E322BE7FF700FB20D9 /* AppDelegate.swift in Sources */,
+				5AFFC23222C2A66F00791655 /* CoreLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +399,7 @@
 		};
 		5AF9A3F522BE7FF900FB20D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5359EAFE65A5D7617433A9DC /* Pods-AR Locator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +418,7 @@
 		};
 		5AF9A3F622BE7FF900FB20D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D789B074F6F6609CEA11F17F /* Pods-AR Locator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
